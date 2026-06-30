@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
@@ -82,5 +83,9 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4"
+=======
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+>>>>>>> 4a4470baf26c6b58410b5227f174d114bb0cde55
   }
 }
