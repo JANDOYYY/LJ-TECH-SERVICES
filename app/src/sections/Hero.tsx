@@ -118,7 +118,7 @@ export default function Hero({ loaded }: HeroProps) {
           
           <img
             ref={imageRef}
-            src="/images/cover-photo.jpg"
+             src={`${import.meta.env.BASE_URL}images/cover-photo.jpg`}
             alt="LJ Tech Solutions - Professional Computer Services"
             className="relative w-full rounded-2xl shadow-2xl shadow-black/50"
             style={{ willChange: 'transform' }}
@@ -141,7 +141,7 @@ export default function Hero({ loaded }: HeroProps) {
       {/* Mobile: show cover photo below text */}
       <div className="lg:hidden relative z-10 px-6 pb-12">
         <img
-          src="/images/cover-photo.jpg"
+           src={`${import.meta.env.BASE_URL}images/cover-photo.jpg`}
           alt="LJ Tech Solutions"
           className="w-full rounded-2xl shadow-xl"
         />
